@@ -31,10 +31,6 @@ public class MainPage {
         searchField.sendKeys(value);
     }
 
-//    public void selectSearchMethod(String typeSearchMethod) {
-//        searchMethod.sendKeys(typeSearchMethod);
-//    }
-
     public WebElement getSearchMethod() {
         return searchMethod;
     }
